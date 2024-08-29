@@ -59,7 +59,7 @@ const TeacherForm = ({
           defaultValue={data?.username}
           register={register}
           error={errors?.username}
-        />
+        /> 
         <InputField
           label="Email"
           name="email"
@@ -136,7 +136,7 @@ const TeacherForm = ({
           {errors.sex?.message && (
             <p className="text-xs text-red-400">
               {errors.sex.message.toString()}
-            </p>
+            </p> 
           )}
         </div>
         <div className="flex flex-col gap-2 w-full md:w-1/4 justify-center">
